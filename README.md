@@ -5,12 +5,12 @@ A lightweight, fast and easy-to-use typer for simulating terminals in native js.
 Include in html file with `<script type="text/javascript" src="location/of/typer.js"></script>`
 
 ### Setup
-`var typer = new Typer(\[stage id\],\[target id\], \[ms between each char\], \[interrupt string\], \[# lines to start trimming terminal at\]);`
+`var typer = new Typer([stage id],[target id], [ms between each char], [interrupt string], [# lines to start trimming terminal at]);`
 
 ### Type text on stage
-`typer.type(\[string to type\], \[suffix\], \[callback\]);`
+`typer.type([string to type], [suffix], [callback]);`
 
 ### Dump text to stage instantly
-`typer.dump(\[string to dump\], \[ms to wait before dumping text\], \[callback\]);`
+`typer.dump([string to dump], [ms to wait before dumping text], [callback]);`
 
 Proper documentation to come soon™.
